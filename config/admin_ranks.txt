@@ -1,0 +1,34 @@
+##############################################################################################################
+# ADMIN RANK DEFINES                                                                                         #
+# The format of this is very simple. Rank name goes first.                                                   #
+# Rank is CASE-SENSITIVE, all punctuation save for '-', '_' and '@' will be stripped so spaces don't matter. #
+# You can then define permissions for each rank by adding a '=' followed by keywords                         #
+# These keywords represent groups of verbs and abilities.                                                    #
+# keywords are preceded by either a '+' or a '-', + adds permissions, - takes them away.                     #
+# +@ (or +prev) is a special shorthand which adds all the rights of the rank above it.                       #
+# You can also specify verbs like so +/client/proc/some_added_verb or -/client/proc/some_restricted_verb     #
+# Ranks with no keywords will just be given the most basic verbs and abilities                ~Carn          #
+##############################################################################################################
+# PLEASE NOTE: depending on config options, some abilities will be unavailable regardless if you have permission to use them!
+
+# KEYWORDS:
+# +TRIALADMIN = Player Panel, Toggle OOC, Toggle OOC for dead people, check AI laws, check antag, jump-to-mob, jump-to-key.
+# +SECONDARYADMIN =  Announce, Subtle message, check contents, jump to co-ords, jump to turf, direct narrate, centcom report, unban panel, jobban panel, bans, ban offline player, gibself, view attack/server logs.
+# +ADMIN = Early start, delay, restart, play local sound, play global sound, game panel, access news network, rejuvinate, respawn, get mob, get key, invismin, toggle entry, toggle guests, spawning.
+# +PRIMARYADMIN =  Call shuttle, cancel shuttle, world narrate, check cultist words, repair map, one click antag, add freeform law, add random law, make sound, immediate reboot, random apperance, toggle AI, admin delete, change view range, toggle random events, something to do with setting OOC, admin dress, possess + release.
+# +SENIORADMIN = object talk, delete all, toggle something, toggle admin spawning, toggle admin jumping, toggle admin banning, get ALL server logs (spans over a few days), drop bomb, cinematic, spawn spess ninja.
+
+# +DEBUG = debug tools used for diagnosing and fixing problems. It's useful to give this to coders so they can investigate problems on a live server.
+# +EVERYTHING (or +HOST or +ALL) = Simply gives you everything without having to type every flag
+
+Admin Observer
+Trial Admin				= +TRIALADMIN
+Secondary Admin			= +@ +SECONDARYADMIN
+Administrator			= +@ +ADMIN
+Primary Administrator	= +@ +PRIMARYADMIN
+Senior Admin			= +@ +SENIORADMIN
+Head of Staff			= +@ +DEBUG
+
+Coder					= +EVERYTHING
+Game Master				= +EVERYTHING
+Host					= +EVERYTHING

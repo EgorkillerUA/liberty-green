@@ -1,0 +1,1050 @@
+macro "default"
+	elem 
+		name = "Tab"
+		command = ".winset \"mainwindow.macro=hotkeys mapwindow.map.focus=true input.background-color=#e0e0e0\""
+	elem 
+		name = "Center+REP"
+		command = ".center"
+	elem 
+		name = "Northeast"
+		command = ".northeast"
+	elem 
+		name = "Southeast"
+		command = ".southeast"
+	elem 
+		name = "Southwest"
+		command = ".southwest"
+	elem 
+		name = "Northwest"
+		command = ".northwest"
+	elem 
+		name = "CTRL+West"
+		command = "westface"
+	elem 
+		name = "West+REP"
+		command = ".west"
+	elem 
+		name = "CTRL+North"
+		command = "northface"
+	elem 
+		name = "North+REP"
+		command = ".north"
+	elem 
+		name = "CTRL+East"
+		command = "eastface"
+	elem 
+		name = "East+REP"
+		command = ".east"
+	elem 
+		name = "CTRL+South"
+		command = "southface"
+	elem 
+		name = "South+REP"
+		command = ".south"
+	elem 
+		name = "Insert"
+		command = "a-intent right"
+	elem 
+		name = "Delete"
+		command = "delete-key-pressed"
+	elem 
+		name = "CTRL+1"
+		command = "a-intent help"
+	elem 
+		name = "CTRL+2"
+		command = "a-intent disarm"
+	elem 
+		name = "CTRL+3"
+		command = "a-intent grab"
+	elem 
+		name = "CTRL+4"
+		command = "a-intent harm"
+	elem 
+		name = "CTRL+A+REP"
+		command = ".west"
+	elem 
+		name = "CTRL+B"
+		command = "resist"
+	elem 
+		name = "CTRL+D+REP"
+		command = ".east"
+	elem 
+		name = "CTRL+E"
+		command = "quick-equip"
+	elem 
+		name = "CTRL+F"
+		command = "a-intent left"
+	elem 
+		name = "CTRL+G"
+		command = "a-intent right"
+	elem 
+		name = "CTRL+O"
+		command = "ooc"
+	elem 
+		name = "CTRL+Q"
+		command = ".northwest"
+	elem 
+		name = "CTRL+R"
+		command = ".southwest"
+	elem 
+		name = "CTRL+S+REP"
+		command = ".south"
+	elem 
+		name = "CTRL+W+REP"
+		command = ".north"
+	elem 
+		name = "CTRL+X"
+		command = ".northeast"
+	elem 
+		name = "CTRL+Y"
+		command = "me"
+	elem 
+		name = "CTRL+Z"
+		command = "Activate-Held-Object"
+	elem 
+		name = "F1"
+		command = "adminhelp"
+	elem 
+		name = "CTRL+SHIFT+F1+REP"
+		command = ".options"
+	elem 
+		name = "F2"
+		command = "OOC"
+	elem 
+		name = "F2+REP"
+		command = ".screenshot auto"
+	elem 
+		name = "SHIFT+F2+REP"
+		command = ".screenshot"
+	elem 
+		name = "F3"
+		command = "say"
+	elem 
+		name = "F4"
+		command = "Me"
+	elem 
+		name = "F5"
+		command = "asay"
+	elem 
+		name = "F6"
+		command = "Player-Panel"
+	elem 
+		name = "F7"
+		command = "Admin-PM"
+	elem 
+		name = "F8"
+		command = "Invisimin"
+	elem 
+		name = "F12"
+		command = "F12"
+
+macro "hotkeys"
+	elem 
+		name = "TAB"
+		command = ".winset \"mainwindow.macro=default input.focus=true input.background-color=#d3b5b5\""
+	elem 
+		name = "CENTER+REP"
+		command = ".center"
+	elem 
+		name = "NORTHEAST"
+		command = ".northeast"
+	elem 
+		name = "SOUTHEAST"
+		command = ".southeast"
+	elem 
+		name = "SOUTHWEST"
+		command = ".southwest"
+	elem 
+		name = "NORTHWEST"
+		command = ".northwest"
+	elem 
+		name = "CTRL+WEST"
+		command = "westface"
+	elem 
+		name = "WEST+REP"
+		command = ".west"
+	elem 
+		name = "CTRL+NORTH"
+		command = "northface"
+	elem 
+		name = "NORTH+REP"
+		command = ".north"
+	elem 
+		name = "CTRL+EAST"
+		command = "eastface"
+	elem 
+		name = "EAST+REP"
+		command = ".east"
+	elem 
+		name = "CTRL+SOUTH"
+		command = "southface"
+	elem 
+		name = "SOUTH+REP"
+		command = ".south"
+	elem 
+		name = "INSERT"
+		command = "a-intent right"
+	elem 
+		name = "DELETE"
+		command = "delete-key-pressed"
+	elem 
+		name = "1"
+		command = "a-intent help"
+	elem 
+		name = "CTRL+1"
+		command = "a-intent help"
+	elem 
+		name = "2"
+		command = "a-intent disarm"
+	elem 
+		name = "CTRL+2"
+		command = "a-intent disarm"
+	elem 
+		name = "3"
+		command = "a-intent grab"
+	elem 
+		name = "CTRL+3"
+		command = "a-intent grab"
+	elem 
+		name = "4"
+		command = "a-intent harm"
+	elem 
+		name = "CTRL+4"
+		command = "a-intent harm"
+	elem 
+		name = "A+REP"
+		command = ".west"
+	elem 
+		name = "CTRL+A+REP"
+		command = ".west"
+	elem 
+		name = "B"
+		command = "resist"
+	elem 
+		name = "CTRL+B"
+		command = "resist"
+	elem 
+		name = "D+REP"
+		command = ".east"
+	elem 
+		name = "CTRL+D+REP"
+		command = ".east"
+	elem 
+		name = "E"
+		command = "quick-equip"
+	elem 
+		name = "CTRL+E"
+		command = "quick-equip"
+	elem 
+		name = "F"
+		command = "a-intent left"
+	elem 
+		name = "CTRL+F"
+		command = "a-intent left"
+	elem 
+		name = "G"
+		command = "a-intent right"
+	elem 
+		name = "CTRL+G"
+		command = "a-intent right"
+	elem 
+		name = "M"
+		command = "me"
+	elem 
+		name = "O"
+		command = "ooc"
+	elem 
+		name = "CTRL+O"
+		command = "ooc"
+	elem 
+		name = "Q"
+		command = ".northwest"
+	elem 
+		name = "CTRL+Q"
+		command = ".northwest"
+	elem 
+		name = "R"
+		command = ".southwest"
+	elem 
+		name = "CTRL+R"
+		command = ".southwest"
+	elem "s_key"
+		name = "S+REP"
+		command = ".south"
+	elem 
+		name = "CTRL+S+REP"
+		command = ".south"
+	elem 
+		name = "T"
+		command = "say"
+	elem "w_key"
+		name = "W+REP"
+		command = ".north"
+	elem 
+		name = "CTRL+W+REP"
+		command = ".north"
+	elem 
+		name = "X"
+		command = ".northeast"
+	elem 
+		name = "CTRL+X"
+		command = ".northeast"
+	elem 
+		name = "Y"
+		command = "me"
+	elem 
+		name = "CTRL+Y"
+		command = "me"
+	elem 
+		name = "Z"
+		command = "Activate-Held-Object"
+	elem 
+		name = "CTRL+Z"
+		command = "Activate-Held-Object"
+	elem 
+		name = "F1"
+		command = "adminhelp"
+	elem 
+		name = "CTRL+SHIFT+F1+REP"
+		command = ".options"
+	elem 
+		name = "F2+REP"
+		command = ".screenshot auto"
+	elem 
+		name = "SHIFT+F2+REP"
+		command = ".screenshot"
+	elem 
+		name = "F5"
+		command = "Aghost"
+	elem 
+		name = "F6"
+		command = "Player-Panel"
+	elem 
+		name = "F7"
+		command = "Admin-PM"
+	elem 
+		name = "F8"
+		command = "Invisimin"
+	elem 
+		name = "F12"
+		command = "F12"
+
+macro "robot-default"
+	elem 
+		name = "TAB"
+		command = ".winset \"mainwindow.macro=robot-hotkeys mapwindow.map.focus=true input.background-color=#e0e0e0\""
+	elem 
+		name = "CENTER+REP"
+		command = ".center"
+	elem 
+		name = "NORTHEAST"
+		command = ".northeast"
+	elem 
+		name = "SOUTHEAST"
+		command = ".southeast"
+	elem 
+		name = "NORTHWEST"
+		command = "unequip-module"
+	elem 
+		name = "CTRL+WEST"
+		command = "westface"
+	elem 
+		name = "WEST+REP"
+		command = ".west"
+	elem 
+		name = "CTRL+NORTH"
+		command = "northface"
+	elem 
+		name = "NORTH+REP"
+		command = ".north"
+	elem 
+		name = "CTRL+EAST"
+		command = "eastface"
+	elem 
+		name = "EAST+REP"
+		command = ".east"
+	elem 
+		name = "CTRL+SOUTH"
+		command = "southface"
+	elem 
+		name = "SOUTH+REP"
+		command = ".south"
+	elem 
+		name = "INSERT"
+		command = "a-intent right"
+	elem 
+		name = "DELETE"
+		command = "delete-key-pressed"
+	elem 
+		name = "CTRL+1"
+		command = "toggle-module 1"
+	elem 
+		name = "CTRL+2"
+		command = "toggle-module 2"
+	elem 
+		name = "CTRL+3"
+		command = "toggle-module 3"
+	elem 
+		name = "CTRL+4"
+		command = "a-intent left"
+	elem 
+		name = "CTRL+A+REP"
+		command = ".west"
+	elem 
+		name = "CTRL+B"
+		command = "resist"
+	elem 
+		name = "CTRL+O"
+		command = "ooc"
+	elem 
+		name = "CTRL+D+REP"
+		command = ".east"
+	elem 
+		name = "CTRL+F"
+		command = "a-intent left"
+	elem 
+		name = "CTRL+G"
+		command = "a-intent right"
+	elem 
+		name = "CTRL+Q"
+		command = "unequip-module"
+	elem 
+		name = "CTRL+S+REP"
+		command = ".south"
+	elem 
+		name = "CTRL+W+REP"
+		command = ".north"
+	elem 
+		name = "CTRL+X"
+		command = ".northeast"
+	elem 
+		name = "CTRL+Y"
+		command = "me"
+	elem 
+		name = "CTRL+Z"
+		command = "Activate-Held-Object"
+	elem 
+		name = "F1"
+		command = "adminhelp"
+	elem 
+		name = "CTRL+SHIFT+F1+REP"
+		command = ".options"
+	elem 
+		name = "F2+REP"
+		command = ".screenshot auto"
+	elem 
+		name = "SHIFT+F2+REP"
+		command = ".screenshot"
+	elem 
+		name = "F5"
+		command = "Aghost"
+	elem 
+		name = "F6"
+		command = "Player-Panel"
+	elem 
+		name = "F7"
+		command = "Admin-PM"
+	elem 
+		name = "F8"
+		command = "Invisimin"
+	elem 
+		name = "F12"
+		command = "F12"
+
+macro "robot-hotkeys"
+	elem 
+		name = "TAB"
+		command = ".winset \"mainwindow.macro=robot-default input.focus=true input.background-color=#d3b5b5\""
+	elem 
+		name = "CENTER+REP"
+		command = ".center"
+	elem 
+		name = "NORTHEAST"
+		command = ".northeast"
+	elem 
+		name = "SOUTHEAST"
+		command = ".southeast"
+	elem 
+		name = "NORTHWEST"
+		command = "unequip-module"
+	elem 
+		name = "CTRL+WEST"
+		command = "westface"
+	elem 
+		name = "WEST+REP"
+		command = ".west"
+	elem 
+		name = "CTRL+NORTH"
+		command = "northface"
+	elem 
+		name = "NORTH+REP"
+		command = ".north"
+	elem 
+		name = "CTRL+EAST"
+		command = "eastface"
+	elem 
+		name = "EAST+REP"
+		command = ".east"
+	elem 
+		name = "CTRL+SOUTH"
+		command = "southface"
+	elem 
+		name = "SOUTH+REP"
+		command = ".south"
+	elem 
+		name = "INSERT"
+		command = "a-intent right"
+	elem 
+		name = "DELETE"
+		command = "delete-key-pressed"
+	elem 
+		name = "1"
+		command = "toggle-module 1"
+	elem 
+		name = "CTRL+1"
+		command = "toggle-module 1"
+	elem 
+		name = "2"
+		command = "toggle-module 2"
+	elem 
+		name = "CTRL+2"
+		command = "toggle-module 2"
+	elem 
+		name = "3"
+		command = "toggle-module 3"
+	elem 
+		name = "CTRL+3"
+		command = "toggle-module 3"
+	elem 
+		name = "4"
+		command = "a-intent left"
+	elem 
+		name = "CTRL+4"
+		command = "a-intent left"
+	elem 
+		name = "A+REP"
+		command = ".west"
+	elem 
+		name = "CTRL+A+REP"
+		command = ".west"
+	elem 
+		name = "B"
+		command = "resist"
+	elem 
+		name = "CTRL+B"
+		command = "resist"
+	elem 
+		name = "O"
+		command = "ooc"
+	elem 
+		name = "CTRL+O"
+		command = "ooc"
+	elem 
+		name = "D+REP"
+		command = ".east"
+	elem 
+		name = "CTRL+D+REP"
+		command = ".east"
+	elem 
+		name = "F"
+		command = "a-intent left"
+	elem 
+		name = "CTRL+F"
+		command = "a-intent left"
+	elem 
+		name = "G"
+		command = "a-intent right"
+	elem 
+		name = "CTRL+G"
+		command = "a-intent right"
+	elem 
+		name = "Q"
+		command = "unequip-module"
+	elem 
+		name = "CTRL+Q"
+		command = "unequip-module"
+	elem "s_key"
+		name = "S+REP"
+		command = ".south"
+	elem 
+		name = "CTRL+S+REP"
+		command = ".south"
+	elem 
+		name = "T"
+		command = "say"
+	elem "w_key"
+		name = "W+REP"
+		command = ".north"
+	elem 
+		name = "CTRL+W+REP"
+		command = ".north"
+	elem 
+		name = "X"
+		command = ".northeast"
+	elem 
+		name = "CTRL+X"
+		command = ".northeast"
+	elem 
+		name = "Y"
+		command = "Activate-Held-Object"
+	elem 
+		name = "CTRL+Y"
+		command = "me"
+	elem 
+		name = "Z"
+		command = "Activate-Held-Object"
+	elem 
+		name = "CTRL+Z"
+		command = "Activate-Held-Object"
+	elem 
+		name = "F1"
+		command = "adminhelp"
+	elem 
+		name = "CTRL+SHIFT+F1+REP"
+		command = ".options"
+	elem 
+		name = "F2+REP"
+		command = ".screenshot auto"
+	elem 
+		name = "SHIFT+F2+REP"
+		command = ".screenshot"
+	elem 
+		name = "F5"
+		command = "Aghost"
+	elem 
+		name = "F6"
+		command = "Player-Panel"
+	elem 
+		name = "F7"
+		command = "Admin-PM"
+	elem 
+		name = "F8"
+		command = "Invisimin"
+	elem 
+		name = "F12"
+		command = "F12"
+
+
+menu "menu"
+	elem 
+		name = "&File"
+		command = ""
+		saved-params = "is-checked"
+	elem 
+		name = "&Quick screenshot\tF2"
+		command = ".screenshot auto"
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = "&Save screenshot as...\tShift+F2"
+		command = ".screenshot"
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = ""
+		command = ""
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = "&Reconnect"
+		command = ".reconnect"
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = "&Quit\tAlt-F4"
+		command = ".quit"
+		category = "&File"
+		saved-params = "is-checked"
+	elem 
+		name = "&Icons"
+		command = ""
+		saved-params = "is-checked"
+	elem "auto"
+		name = "&Auto (stretch-to-fit)"
+		command = ".winset \"mapwindow.map.icon-size=0\""
+		category = "&Icons"
+		is-checked = true
+		can-check = true
+		group = "size"
+		saved-params = "is-checked"
+	elem "icon96"
+		name = "&96x96 (3x)"
+		command = ".winset \"mapwindow.map.icon-size=96\""
+		category = "&Icons"
+		can-check = true
+		group = "size"
+		saved-params = "is-checked"
+	elem "icon64"
+		name = "&64x64 (2x)"
+		command = ".winset \"mapwindow.map.icon-size=64\""
+		category = "&Icons"
+		can-check = true
+		group = "size"
+		saved-params = "is-checked"
+	elem "icon48"
+		name = "&48x48 (1.5x)"
+		command = ".winset \"mapwindow.map.icon-size=48\""
+		category = "&Icons"
+		can-check = true
+		group = "size"
+		saved-params = "is-checked"
+	elem "icon32"
+		name = "&32x32"
+		command = ".winset \"mapwindow.map.icon-size=32\""
+		category = "&Icons"
+		can-check = true
+		group = "size"
+		saved-params = "is-checked"
+	elem 
+		name = "&Help"
+		command = ""
+		saved-params = "is-checked"
+	elem 
+		name = "&Admin Help\tF1"
+		command = "adminhelp"
+		category = "&Help"
+		saved-params = "is-checked"
+	elem 
+		name = "&Hotkeys"
+		command = "hotkeys-help"
+		category = "&Help"
+		saved-params = "is-checked"
+
+
+window "mainwindow"
+	elem "mainwindow"
+		type = MAIN
+		pos = 0,0
+		size = 640x440
+		anchor1 = none
+		anchor2 = none
+		is-default = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		icon = 'icons\\ss13_64.png'
+		macro = "macro"
+		menu = "menu"
+	elem "split"
+		type = CHILD
+		pos = 3,0
+		size = 634x417
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "splitter"
+		left = "mapwindow"
+		right = "infowindow"
+		is-vert = true
+	elem "input"
+		type = INPUT
+		pos = 5,420
+		size = 595x20
+		anchor1 = 0,100
+		anchor2 = 100,100
+		font-size = 10
+		background-color = #d3b5b5
+		is-default = true
+		saved-params = "command"
+	elem "say"
+		type = BUTTON
+		pos = 600,420
+		size = 37x20
+		anchor1 = 100,100
+		anchor2 = none
+		saved-params = "is-checked"
+		text = "Chat"
+		command = ".winset \"say.is-checked=true ? input.command=\"!say \\\"\" : input.command=\""
+		is-flat = true
+		button-type = pushbox
+	elem "asset_cache_browser"
+		type = BROWSER
+		pos = 0,0
+		size = 200x200
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = ""
+	elem "tooltip"
+		type = BROWSER
+		pos = 0,0
+		size = 999x999
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = ""
+
+window "mapwindow"
+	elem "mapwindow"
+		type = MAIN
+		pos = 0,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		is-pane = true
+	elem "map"
+		type = MAP
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = "Arial"
+		font-size = 7
+		text-color = none
+		is-default = true
+		saved-params = "icon-size"
+
+window "infowindow"
+	elem "infowindow"
+		type = MAIN
+		pos = 0,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		is-pane = true
+	elem "info"
+		type = CHILD
+		pos = 0,30
+		size = 640x445
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "splitter"
+		left = "statwindow"
+		right = "outputwindow"
+		is-vert = false
+	elem "changelog"
+		type = BUTTON
+		pos = 16,5
+		size = 104x20
+		anchor1 = 3,0
+		anchor2 = 19,0
+		saved-params = "is-checked"
+		text = "Changelog"
+		command = "changelog"
+	elem "rules"
+		type = BUTTON
+		pos = 120,5
+		size = 100x20
+		anchor1 = 19,0
+		anchor2 = 34,0
+		saved-params = "is-checked"
+		text = "Rules"
+		command = "rules"
+	elem "wiki"
+		type = BUTTON
+		pos = 220,5
+		size = 100x20
+		anchor1 = 34,0
+		anchor2 = 50,0
+		saved-params = "is-checked"
+		text = "Wiki"
+		command = "wiki"
+	elem "forum"
+		type = BUTTON
+		pos = 320,5
+		size = 100x20
+		anchor1 = 50,0
+		anchor2 = 66,0
+		saved-params = "is-checked"
+		text = "Forum"
+		command = "forum"
+	elem "github"
+		type = BUTTON
+		pos = 420,5
+		size = 100x20
+		anchor1 = 66,0
+		anchor2 = 81,0
+		saved-params = "is-checked"
+		text = "Github"
+		command = "github"
+	elem "report-issue"
+		type = BUTTON
+		pos = 520,5
+		size = 100x20
+		anchor1 = 81,0
+		anchor2 = 97,0
+		saved-params = "is-checked"
+		text = "Report Issue"
+		command = "report-issue"
+
+window "outputwindow"
+	elem "outputwindow"
+		type = MAIN
+		pos = 0,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		is-pane = true
+	elem "tabs"
+		type = TAB
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = ""
+		tabs = "ALLtab,ICtab,OOCtab,ASAYtab,AHELPtab,Mentortab"
+		current-tab = "ALLtab"
+
+window "statwindow"
+	elem "statwindow"
+		type = MAIN
+		pos = 0,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		is-pane = true
+	elem "stat"
+		type = INFO
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		is-default = true
+		saved-params = ""
+
+window "AHELPtab"
+	elem "AHELPtab"
+		type = MAIN
+		pos = 281,0
+		size = 638x494
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Adminhelp"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "ahelp"
+		type = OUTPUT
+		pos = 0,0
+		size = 638x494
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "max-lines"
+		style = "body { font-family: Verdana, sans-serif; } h1, h2, h3, h4, h5, h6 { color: #0000ff; font-family: Georgia, Verdana, sans-serif; } em { font-style: normal; font-weight: bold; } .motd { color: #638500; font-family: Verdana, sans-serif; } .motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6 { color: #638500; text-decoration: underline; } .motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover { color: #638500; } .italics { font-style: italic; } .prefix { font-weight: bold; } .ooc { font-weight: bold; } .adminobserverooc { color: #0099cc; font-weight: bold; } .adminooc { color: #700038; font-weight: bold; } .adminobserver { color: #996600; font-weight: bold; } .admin { color: #386aff; font-weight: bold; } .name { font-weight: bold; } .say {} .deadsay { color: #5c00e6; } .radio { color: #008000; } .sciradio { color: #993399; } .comradio { color: #aca82d; } .secradio { color: #b22222; } .medradio { color: #337296; } .engradio { color: #fb5613; } .suppradio { color: #a8732b; } .servradio { color: #6eaa2c; } .syndradio { color: #6d3f40; } .centcomradio { color: #686868; } .aiprivradio { color: #ff00ff; } .yell { font-weight: bold; } .alert { color: #ff0000; } h1.alert, h2.alert { color: #000000; } .emote { font-style: italic; } .selecteddna { color: #ffffff; background-color: #001B1B } .attack { color: #ff0000; } .disarm { color: #990000; } .passive { color: #660000; } .userdanger { color: #ff0000; font-weight: bold; font-size: 3; } .danger { color: #ff0000; } .warning { color: #ff0000; font-style: italic; } .announce { color: #228b22; font-weight: bold; } .boldannounce { color: #ff0000; font-weight: bold; } .greenannounce { color: #00ff00; font-weight: bold; } .rose { color: #ff5050; } .info { color: #0000CC; } .notice { color: #000099; } .boldnotice { color: #000099; font-weight: bold; } .adminnotice { color: #0000ff; } .unconscious { color: #0000ff; font-weight: bold; } .suicide { color: #ff5050; font-style: italic; } .green { color: #03ff39; } .shadowling { color: #3b2769; } .cult { color: #960000; } .cultitalic { color: #960000; font-style: italic; } .cultlarge { color: #960000; font-weight: bold; font-size: 3; } .narsie { color: #960000; font-weight: bold; font-size: 15; } .purple { color: #5e2d79; } .holoparasite { color: #35333a; } .holoparasitebold { color: #35333a; font-weight: bold; } .brass { color: #BE8700; } .heavy_brass { color: #BE8700; font-weight: bold; font-style: italic; } .large_brass { color: #BE8700; font-size: 3; } .big_brass { color: #BE8700; font-size: 3; font-weight: bold; font-style: italic; } .alloy { color: #42474D; } .heavy_alloy { color: #42474D; font-weight: bold; font-style: italic; } .large_alloy { color: #42474D; font-size: 3; } .nezbere { color: #42474D; font-weight: bold; font-style: italic; } .nezbere_small { color: #42474D; } .sevtug { color: #AF0AAF; font-weight: bold; font-style: italic; } .sevtug_small { color: #AF0AAF; } .inathneq { color: #1E8CE1; font-weight: bold; font-style: italic; } .inathneq_small { color: #1E8CE1; } .nzcrentr { color: #BE8700; font-weight: bold; font-style: italic; } .nzcrentr_small { color: #BE8700; } .neovgre { color: #13143F; font-weight: bold; font-style: italic; } .neovgre_small { color: #13143F; } .revennotice { color: #1d2953; } .revenboldnotice { color: #1d2953; font-weight: bold; } .revenbignotice { color: #1d2953; font-weight: bold; font-size: 3; } .revenminor { color: #823abb } .revenwarning { color: #760fbb; font-style: italic; } .revendanger { color: #760fbb; font-weight: bold; font-size: 3; } .newscaster { color: #800000; } .ghostalert { color: #5c00e6; font-style: italic; font-weight: bold; } .alien { color: #543354; } .noticealien { color: #00c000; } .alertalien { color: #00c000; font-weight: bold; } .interface { color: #330033; } .sans { font-family: \"Comic Sans MS\", cursive, sans-serif; } .papyrus { font-family: \"Papyrus\", cursive, sans-serif; } .robot { font-family: \"Courier New\", cursive, sans-serif; } .command_headset { font-weight: bold; font-size: 3; } .big { font-size: 3; } .reallybig { font-size: 4; } .greentext { color: #00FF00; font-size: 3; } .redtext { color: #FF0000; font-size: 3; } .clown { color: #FF69Bf; font-size: 3; font-family: \"Comic Sans MS\", cursive, sans-serif; font-weight: bold; } BIG IMG.icon { width: 32px; height: 32px; } .memo { color: #638500; text-align: center; } .memoedit { text-align: center; font-size: 2; } .abductor { color: #800080; font-style: italic; }"
+
+window "ALLtab"
+	elem "ALLtab"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "All"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "all"
+		type = OUTPUT
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		is-default = true
+		saved-params = "max-lines"
+		style = "body { font-family: Verdana, sans-serif; } h1, h2, h3, h4, h5, h6 { color: #0000ff; font-family: Georgia, Verdana, sans-serif; } em { font-style: normal; font-weight: bold; } .motd { color: #638500; font-family: Verdana, sans-serif; } .motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6 { color: #638500; text-decoration: underline; } .motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover { color: #638500; } .italics { font-style: italic; } .prefix { font-weight: bold; } .ooc { font-weight: bold; } .adminobserverooc { color: #0099cc; font-weight: bold; } .adminooc { color: #700038; font-weight: bold; } .adminobserver { color: #996600; font-weight: bold; } .admin { color: #386aff; font-weight: bold; } .name { font-weight: bold; } .say {} .deadsay { color: #5c00e6; } .radio { color: #008000; } .sciradio { color: #993399; } .comradio { color: #aca82d; } .secradio { color: #b22222; } .medradio { color: #337296; } .engradio { color: #fb5613; } .suppradio { color: #a8732b; } .servradio { color: #6eaa2c; } .syndradio { color: #6d3f40; } .centcomradio { color: #686868; } .aiprivradio { color: #ff00ff; } .yell { font-weight: bold; } .alert { color: #ff0000; } h1.alert, h2.alert { color: #000000; } .emote { font-style: italic; } .selecteddna { color: #ffffff; background-color: #001B1B } .attack { color: #ff0000; } .disarm { color: #990000; } .passive { color: #660000; } .userdanger { color: #ff0000; font-weight: bold; font-size: 3; } .danger { color: #ff0000; } .warning { color: #ff0000; font-style: italic; } .announce { color: #228b22; font-weight: bold; } .boldannounce { color: #ff0000; font-weight: bold; } .greenannounce { color: #00ff00; font-weight: bold; } .rose { color: #ff5050; } .info { color: #0000CC; } .notice { color: #000099; } .boldnotice { color: #000099; font-weight: bold; } .adminnotice { color: #0000ff; } .unconscious { color: #0000ff; font-weight: bold; } .suicide { color: #ff5050; font-style: italic; } .green { color: #03ff39; } .shadowling { color: #3b2769; } .cult { color: #960000; } .cultitalic { color: #960000; font-style: italic; } .cultlarge { color: #960000; font-weight: bold; font-size: 3; } .narsie { color: #960000; font-weight: bold; font-size: 15; } .purple { color: #5e2d79; } .holoparasite { color: #35333a; } .holoparasitebold { color: #35333a; font-weight: bold; } .brass { color: #BE8700; } .heavy_brass { color: #BE8700; font-weight: bold; font-style: italic; } .large_brass { color: #BE8700; font-size: 3; } .big_brass { color: #BE8700; font-size: 3; font-weight: bold; font-style: italic; } .alloy { color: #42474D; } .heavy_alloy { color: #42474D; font-weight: bold; font-style: italic; } .large_alloy { color: #42474D; font-size: 3; } .nezbere { color: #42474D; font-weight: bold; font-style: italic; } .nezbere_small { color: #42474D; } .sevtug { color: #AF0AAF; font-weight: bold; font-style: italic; } .sevtug_small { color: #AF0AAF; } .inathneq { color: #1E8CE1; font-weight: bold; font-style: italic; } .inathneq_small { color: #1E8CE1; } .nzcrentr { color: #BE8700; font-weight: bold; font-style: italic; } .nzcrentr_small { color: #BE8700; } .neovgre { color: #13143F; font-weight: bold; font-style: italic; } .neovgre_small { color: #13143F; } .revennotice { color: #1d2953; } .revenboldnotice { color: #1d2953; font-weight: bold; } .revenbignotice { color: #1d2953; font-weight: bold; font-size: 3; } .revenminor { color: #823abb } .revenwarning { color: #760fbb; font-style: italic; } .revendanger { color: #760fbb; font-weight: bold; font-size: 3; } .newscaster { color: #800000; } .ghostalert { color: #5c00e6; font-style: italic; font-weight: bold; } .alien { color: #543354; } .noticealien { color: #00c000; } .alertalien { color: #00c000; font-weight: bold; } .interface { color: #330033; } .sans { font-family: \"Comic Sans MS\", cursive, sans-serif; } .papyrus { font-family: \"Papyrus\", cursive, sans-serif; } .robot { font-family: \"Courier New\", cursive, sans-serif; } .command_headset { font-weight: bold; font-size: 3; } .big { font-size: 3; } .reallybig { font-size: 4; } .greentext { color: #00FF00; font-size: 3; } .redtext { color: #FF0000; font-size: 3; } .clown { color: #FF69Bf; font-size: 3; font-family: \"Comic Sans MS\", cursive, sans-serif; font-weight: bold; } BIG IMG.icon { width: 32px; height: 32px; } .memo { color: #638500; text-align: center; } .memoedit { text-align: center; font-size: 2; } .abductor { color: #800080; font-style: italic; }"
+
+window "ASAYtab"
+	elem "ASAYtab"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Asay"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "asay"
+		type = OUTPUT
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "max-lines"
+		style = "body { font-family: Verdana, sans-serif; } h1, h2, h3, h4, h5, h6 { color: #0000ff; font-family: Georgia, Verdana, sans-serif; } em { font-style: normal; font-weight: bold; } .motd { color: #638500; font-family: Verdana, sans-serif; } .motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6 { color: #638500; text-decoration: underline; } .motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover { color: #638500; } .italics { font-style: italic; } .prefix { font-weight: bold; } .ooc { font-weight: bold; } .adminobserverooc { color: #0099cc; font-weight: bold; } .adminooc { color: #700038; font-weight: bold; } .adminobserver { color: #996600; font-weight: bold; } .admin { color: #386aff; font-weight: bold; } .name { font-weight: bold; } .say {} .deadsay { color: #5c00e6; } .radio { color: #008000; } .sciradio { color: #993399; } .comradio { color: #aca82d; } .secradio { color: #b22222; } .medradio { color: #337296; } .engradio { color: #fb5613; } .suppradio { color: #a8732b; } .servradio { color: #6eaa2c; } .syndradio { color: #6d3f40; } .centcomradio { color: #686868; } .aiprivradio { color: #ff00ff; } .yell { font-weight: bold; } .alert { color: #ff0000; } h1.alert, h2.alert { color: #000000; } .emote { font-style: italic; } .selecteddna { color: #ffffff; background-color: #001B1B } .attack { color: #ff0000; } .disarm { color: #990000; } .passive { color: #660000; } .userdanger { color: #ff0000; font-weight: bold; font-size: 3; } .danger { color: #ff0000; } .warning { color: #ff0000; font-style: italic; } .announce { color: #228b22; font-weight: bold; } .boldannounce { color: #ff0000; font-weight: bold; } .greenannounce { color: #00ff00; font-weight: bold; } .rose { color: #ff5050; } .info { color: #0000CC; } .notice { color: #000099; } .boldnotice { color: #000099; font-weight: bold; } .adminnotice { color: #0000ff; } .unconscious { color: #0000ff; font-weight: bold; } .suicide { color: #ff5050; font-style: italic; } .green { color: #03ff39; } .shadowling { color: #3b2769; } .cult { color: #960000; } .cultitalic { color: #960000; font-style: italic; } .cultlarge { color: #960000; font-weight: bold; font-size: 3; } .narsie { color: #960000; font-weight: bold; font-size: 15; } .purple { color: #5e2d79; } .holoparasite { color: #35333a; } .holoparasitebold { color: #35333a; font-weight: bold; } .brass { color: #BE8700; } .heavy_brass { color: #BE8700; font-weight: bold; font-style: italic; } .large_brass { color: #BE8700; font-size: 3; } .big_brass { color: #BE8700; font-size: 3; font-weight: bold; font-style: italic; } .alloy { color: #42474D; } .heavy_alloy { color: #42474D; font-weight: bold; font-style: italic; } .large_alloy { color: #42474D; font-size: 3; } .nezbere { color: #42474D; font-weight: bold; font-style: italic; } .nezbere_small { color: #42474D; } .sevtug { color: #AF0AAF; font-weight: bold; font-style: italic; } .sevtug_small { color: #AF0AAF; } .inathneq { color: #1E8CE1; font-weight: bold; font-style: italic; } .inathneq_small { color: #1E8CE1; } .nzcrentr { color: #BE8700; font-weight: bold; font-style: italic; } .nzcrentr_small { color: #BE8700; } .neovgre { color: #13143F; font-weight: bold; font-style: italic; } .neovgre_small { color: #13143F; } .revennotice { color: #1d2953; } .revenboldnotice { color: #1d2953; font-weight: bold; } .revenbignotice { color: #1d2953; font-weight: bold; font-size: 3; } .revenminor { color: #823abb } .revenwarning { color: #760fbb; font-style: italic; } .revendanger { color: #760fbb; font-weight: bold; font-size: 3; } .newscaster { color: #800000; } .ghostalert { color: #5c00e6; font-style: italic; font-weight: bold; } .alien { color: #543354; } .noticealien { color: #00c000; } .alertalien { color: #00c000; font-weight: bold; } .interface { color: #330033; } .sans { font-family: \"Comic Sans MS\", cursive, sans-serif; } .papyrus { font-family: \"Papyrus\", cursive, sans-serif; } .robot { font-family: \"Courier New\", cursive, sans-serif; } .command_headset { font-weight: bold; font-size: 3; } .big { font-size: 3; } .reallybig { font-size: 4; } .greentext { color: #00FF00; font-size: 3; } .redtext { color: #FF0000; font-size: 3; } .clown { color: #FF69Bf; font-size: 3; font-family: \"Comic Sans MS\", cursive, sans-serif; font-weight: bold; } BIG IMG.icon { width: 32px; height: 32px; } .memo { color: #638500; text-align: center; } .memoedit { text-align: center; font-size: 2; } .abductor { color: #800080; font-style: italic; }"
+
+window "ICtab"
+	elem "ICtab"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "IC"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "ic"
+		type = OUTPUT
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "max-lines"
+		style = "body { font-family: Verdana, sans-serif; } h1, h2, h3, h4, h5, h6 { color: #0000ff; font-family: Georgia, Verdana, sans-serif; } em { font-style: normal; font-weight: bold; } .motd { color: #638500; font-family: Verdana, sans-serif; } .motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6 { color: #638500; text-decoration: underline; } .motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover { color: #638500; } .italics { font-style: italic; } .prefix { font-weight: bold; } .ooc { font-weight: bold; } .adminobserverooc { color: #0099cc; font-weight: bold; } .adminooc { color: #700038; font-weight: bold; } .adminobserver { color: #996600; font-weight: bold; } .admin { color: #386aff; font-weight: bold; } .name { font-weight: bold; } .say {} .deadsay { color: #5c00e6; } .radio { color: #008000; } .sciradio { color: #993399; } .comradio { color: #aca82d; } .secradio { color: #b22222; } .medradio { color: #337296; } .engradio { color: #fb5613; } .suppradio { color: #a8732b; } .servradio { color: #6eaa2c; } .syndradio { color: #6d3f40; } .centcomradio { color: #686868; } .aiprivradio { color: #ff00ff; } .yell { font-weight: bold; } .alert { color: #ff0000; } h1.alert, h2.alert { color: #000000; } .emote { font-style: italic; } .selecteddna { color: #ffffff; background-color: #001B1B } .attack { color: #ff0000; } .disarm { color: #990000; } .passive { color: #660000; } .userdanger { color: #ff0000; font-weight: bold; font-size: 3; } .danger { color: #ff0000; } .warning { color: #ff0000; font-style: italic; } .announce { color: #228b22; font-weight: bold; } .boldannounce { color: #ff0000; font-weight: bold; } .greenannounce { color: #00ff00; font-weight: bold; } .rose { color: #ff5050; } .info { color: #0000CC; } .notice { color: #000099; } .boldnotice { color: #000099; font-weight: bold; } .adminnotice { color: #0000ff; } .unconscious { color: #0000ff; font-weight: bold; } .suicide { color: #ff5050; font-style: italic; } .green { color: #03ff39; } .shadowling { color: #3b2769; } .cult { color: #960000; } .cultitalic { color: #960000; font-style: italic; } .cultlarge { color: #960000; font-weight: bold; font-size: 3; } .narsie { color: #960000; font-weight: bold; font-size: 15; } .purple { color: #5e2d79; } .holoparasite { color: #35333a; } .holoparasitebold { color: #35333a; font-weight: bold; } .brass { color: #BE8700; } .heavy_brass { color: #BE8700; font-weight: bold; font-style: italic; } .large_brass { color: #BE8700; font-size: 3; } .big_brass { color: #BE8700; font-size: 3; font-weight: bold; font-style: italic; } .alloy { color: #42474D; } .heavy_alloy { color: #42474D; font-weight: bold; font-style: italic; } .large_alloy { color: #42474D; font-size: 3; } .nezbere { color: #42474D; font-weight: bold; font-style: italic; } .nezbere_small { color: #42474D; } .sevtug { color: #AF0AAF; font-weight: bold; font-style: italic; } .sevtug_small { color: #AF0AAF; } .inathneq { color: #1E8CE1; font-weight: bold; font-style: italic; } .inathneq_small { color: #1E8CE1; } .nzcrentr { color: #BE8700; font-weight: bold; font-style: italic; } .nzcrentr_small { color: #BE8700; } .neovgre { color: #13143F; font-weight: bold; font-style: italic; } .neovgre_small { color: #13143F; } .revennotice { color: #1d2953; } .revenboldnotice { color: #1d2953; font-weight: bold; } .revenbignotice { color: #1d2953; font-weight: bold; font-size: 3; } .revenminor { color: #823abb } .revenwarning { color: #760fbb; font-style: italic; } .revendanger { color: #760fbb; font-weight: bold; font-size: 3; } .newscaster { color: #800000; } .ghostalert { color: #5c00e6; font-style: italic; font-weight: bold; } .alien { color: #543354; } .noticealien { color: #00c000; } .alertalien { color: #00c000; font-weight: bold; } .interface { color: #330033; } .sans { font-family: \"Comic Sans MS\", cursive, sans-serif; } .papyrus { font-family: \"Papyrus\", cursive, sans-serif; } .robot { font-family: \"Courier New\", cursive, sans-serif; } .command_headset { font-weight: bold; font-size: 3; } .big { font-size: 3; } .reallybig { font-size: 4; } .greentext { color: #00FF00; font-size: 3; } .redtext { color: #FF0000; font-size: 3; } .clown { color: #FF69Bf; font-size: 3; font-family: \"Comic Sans MS\", cursive, sans-serif; font-weight: bold; } BIG IMG.icon { width: 32px; height: 32px; } .memo { color: #638500; text-align: center; } .memoedit { text-align: center; font-size: 2; } .abductor { color: #800080; font-style: italic; }"
+
+window "Mentortab"
+	elem "Mentortab"
+		type = MAIN
+		pos = 281,0
+		size = 638x494
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Mentorhelp"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "mhelp"
+		type = OUTPUT
+		pos = 0,0
+		size = 638x494
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "max-lines"
+		style = "body { font-family: Verdana, sans-serif; } h1, h2, h3, h4, h5, h6 { color: #0000ff; font-family: Georgia, Verdana, sans-serif; } em { font-style: normal; font-weight: bold; } .motd { color: #638500; font-family: Verdana, sans-serif; } .motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6 { color: #638500; text-decoration: underline; } .motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover { color: #638500; } .italics { font-style: italic; } .prefix { font-weight: bold; } .ooc { font-weight: bold; } .adminobserverooc { color: #0099cc; font-weight: bold; } .adminooc { color: #700038; font-weight: bold; } .adminobserver { color: #996600; font-weight: bold; } .admin { color: #386aff; font-weight: bold; } .name { font-weight: bold; } .say {} .deadsay { color: #5c00e6; } .radio { color: #008000; } .sciradio { color: #993399; } .comradio { color: #aca82d; } .secradio { color: #b22222; } .medradio { color: #337296; } .engradio { color: #fb5613; } .suppradio { color: #a8732b; } .servradio { color: #6eaa2c; } .syndradio { color: #6d3f40; } .centcomradio { color: #686868; } .aiprivradio { color: #ff00ff; } .yell { font-weight: bold; } .alert { color: #ff0000; } h1.alert, h2.alert { color: #000000; } .emote { font-style: italic; } .selecteddna { color: #ffffff; background-color: #001B1B } .attack { color: #ff0000; } .disarm { color: #990000; } .passive { color: #660000; } .userdanger { color: #ff0000; font-weight: bold; font-size: 3; } .danger { color: #ff0000; } .warning { color: #ff0000; font-style: italic; } .announce { color: #228b22; font-weight: bold; } .boldannounce { color: #ff0000; font-weight: bold; } .greenannounce { color: #00ff00; font-weight: bold; } .rose { color: #ff5050; } .info { color: #0000CC; } .notice { color: #000099; } .boldnotice { color: #000099; font-weight: bold; } .adminnotice { color: #0000ff; } .unconscious { color: #0000ff; font-weight: bold; } .suicide { color: #ff5050; font-style: italic; } .green { color: #03ff39; } .shadowling { color: #3b2769; } .cult { color: #960000; } .cultitalic { color: #960000; font-style: italic; } .cultlarge { color: #960000; font-weight: bold; font-size: 3; } .narsie { color: #960000; font-weight: bold; font-size: 15; } .purple { color: #5e2d79; } .holoparasite { color: #35333a; } .holoparasitebold { color: #35333a; font-weight: bold; } .brass { color: #BE8700; } .heavy_brass { color: #BE8700; font-weight: bold; font-style: italic; } .large_brass { color: #BE8700; font-size: 3; } .big_brass { color: #BE8700; font-size: 3; font-weight: bold; font-style: italic; } .alloy { color: #42474D; } .heavy_alloy { color: #42474D; font-weight: bold; font-style: italic; } .large_alloy { color: #42474D; font-size: 3; } .nezbere { color: #42474D; font-weight: bold; font-style: italic; } .nezbere_small { color: #42474D; } .sevtug { color: #AF0AAF; font-weight: bold; font-style: italic; } .sevtug_small { color: #AF0AAF; } .inathneq { color: #1E8CE1; font-weight: bold; font-style: italic; } .inathneq_small { color: #1E8CE1; } .nzcrentr { color: #BE8700; font-weight: bold; font-style: italic; } .nzcrentr_small { color: #BE8700; } .neovgre { color: #13143F; font-weight: bold; font-style: italic; } .neovgre_small { color: #13143F; } .revennotice { color: #1d2953; } .revenboldnotice { color: #1d2953; font-weight: bold; } .revenbignotice { color: #1d2953; font-weight: bold; font-size: 3; } .revenminor { color: #823abb } .revenwarning { color: #760fbb; font-style: italic; } .revendanger { color: #760fbb; font-weight: bold; font-size: 3; } .newscaster { color: #800000; } .ghostalert { color: #5c00e6; font-style: italic; font-weight: bold; } .alien { color: #543354; } .noticealien { color: #00c000; } .alertalien { color: #00c000; font-weight: bold; } .interface { color: #330033; } .sans { font-family: \"Comic Sans MS\", cursive, sans-serif; } .papyrus { font-family: \"Papyrus\", cursive, sans-serif; } .robot { font-family: \"Courier New\", cursive, sans-serif; } .command_headset { font-weight: bold; font-size: 3; } .big { font-size: 3; } .reallybig { font-size: 4; } .greentext { color: #00FF00; font-size: 3; } .redtext { color: #FF0000; font-size: 3; } .clown { color: #FF69Bf; font-size: 3; font-family: \"Comic Sans MS\", cursive, sans-serif; font-weight: bold; } BIG IMG.icon { width: 32px; height: 32px; } .memo { color: #638500; text-align: center; } .memoedit { text-align: center; font-size: 2; } .abductor { color: #800080; font-style: italic; }"
+
+window "OOCtab"
+	elem "OOCtab"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "OOC"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "ooc"
+		type = OUTPUT
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "max-lines"
+		style = "body { font-family: Verdana, sans-serif; } h1, h2, h3, h4, h5, h6 { color: #0000ff; font-family: Georgia, Verdana, sans-serif; } em { font-style: normal; font-weight: bold; } .motd { color: #638500; font-family: Verdana, sans-serif; } .motd h1, .motd h2, .motd h3, .motd h4, .motd h5, .motd h6 { color: #638500; text-decoration: underline; } .motd a, .motd a:link, .motd a:visited, .motd a:active, .motd a:hover { color: #638500; } .italics { font-style: italic; } .prefix { font-weight: bold; } .ooc { font-weight: bold; } .adminobserverooc { color: #0099cc; font-weight: bold; } .adminooc { color: #700038; font-weight: bold; } .adminobserver { color: #996600; font-weight: bold; } .admin { color: #386aff; font-weight: bold; } .name { font-weight: bold; } .say {} .deadsay { color: #5c00e6; } .radio { color: #008000; } .sciradio { color: #993399; } .comradio { color: #aca82d; } .secradio { color: #b22222; } .medradio { color: #337296; } .engradio { color: #fb5613; } .suppradio { color: #a8732b; } .servradio { color: #6eaa2c; } .syndradio { color: #6d3f40; } .centcomradio { color: #686868; } .aiprivradio { color: #ff00ff; } .yell { font-weight: bold; } .alert { color: #ff0000; } h1.alert, h2.alert { color: #000000; } .emote { font-style: italic; } .selecteddna { color: #ffffff; background-color: #001B1B } .attack { color: #ff0000; } .disarm { color: #990000; } .passive { color: #660000; } .userdanger { color: #ff0000; font-weight: bold; font-size: 3; } .danger { color: #ff0000; } .warning { color: #ff0000; font-style: italic; } .announce { color: #228b22; font-weight: bold; } .boldannounce { color: #ff0000; font-weight: bold; } .greenannounce { color: #00ff00; font-weight: bold; } .rose { color: #ff5050; } .info { color: #0000CC; } .notice { color: #000099; } .boldnotice { color: #000099; font-weight: bold; } .adminnotice { color: #0000ff; } .unconscious { color: #0000ff; font-weight: bold; } .suicide { color: #ff5050; font-style: italic; } .green { color: #03ff39; } .shadowling { color: #3b2769; } .cult { color: #960000; } .cultitalic { color: #960000; font-style: italic; } .cultlarge { color: #960000; font-weight: bold; font-size: 3; } .narsie { color: #960000; font-weight: bold; font-size: 15; } .purple { color: #5e2d79; } .holoparasite { color: #35333a; } .holoparasitebold { color: #35333a; font-weight: bold; } .brass { color: #BE8700; } .heavy_brass { color: #BE8700; font-weight: bold; font-style: italic; } .large_brass { color: #BE8700; font-size: 3; } .big_brass { color: #BE8700; font-size: 3; font-weight: bold; font-style: italic; } .alloy { color: #42474D; } .heavy_alloy { color: #42474D; font-weight: bold; font-style: italic; } .large_alloy { color: #42474D; font-size: 3; } .nezbere { color: #42474D; font-weight: bold; font-style: italic; } .nezbere_small { color: #42474D; } .sevtug { color: #AF0AAF; font-weight: bold; font-style: italic; } .sevtug_small { color: #AF0AAF; } .inathneq { color: #1E8CE1; font-weight: bold; font-style: italic; } .inathneq_small { color: #1E8CE1; } .nzcrentr { color: #BE8700; font-weight: bold; font-style: italic; } .nzcrentr_small { color: #BE8700; } .neovgre { color: #13143F; font-weight: bold; font-style: italic; } .neovgre_small { color: #13143F; } .revennotice { color: #1d2953; } .revenboldnotice { color: #1d2953; font-weight: bold; } .revenbignotice { color: #1d2953; font-weight: bold; font-size: 3; } .revenminor { color: #823abb } .revenwarning { color: #760fbb; font-style: italic; } .revendanger { color: #760fbb; font-weight: bold; font-size: 3; } .newscaster { color: #800000; } .ghostalert { color: #5c00e6; font-style: italic; font-weight: bold; } .alien { color: #543354; } .noticealien { color: #00c000; } .alertalien { color: #00c000; font-weight: bold; } .interface { color: #330033; } .sans { font-family: \"Comic Sans MS\", cursive, sans-serif; } .papyrus { font-family: \"Papyrus\", cursive, sans-serif; } .robot { font-family: \"Courier New\", cursive, sans-serif; } .command_headset { font-weight: bold; font-size: 3; } .big { font-size: 3; } .reallybig { font-size: 4; } .greentext { color: #00FF00; font-size: 3; } .redtext { color: #FF0000; font-size: 3; } .clown { color: #FF69Bf; font-size: 3; font-family: \"Comic Sans MS\", cursive, sans-serif; font-weight: bold; } BIG IMG.icon { width: 32px; height: 32px; } .memo { color: #638500; text-align: center; } .memoedit { text-align: center; font-size: 2; } .abductor { color: #800080; font-style: italic; }"
+

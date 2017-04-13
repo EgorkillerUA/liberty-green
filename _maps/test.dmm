@@ -1,0 +1,34 @@
+"a" = (/turf/open/space,/area/space)
+"b" = (/turf/closed/indestructible/fakeglass{icon_state = "fakewindows2"; dir = 6},/area/space)
+"c" = (/turf/open/indestructible{tag = "icon-brownold (NORTHWEST)"; icon_state = "brownold"; dir = 9},/area/space)
+"d" = (/turf/open/indestructible{tag = "icon-brownold (NORTH)"; icon_state = "brownold"; dir = 1},/area/space)
+"e" = (/turf/open/indestructible{tag = "icon-brownold (NORTHEAST)"; icon_state = "brownold"; dir = 5},/area/space)
+"f" = (/turf/open/indestructible{tag = "icon-brownold (WEST)"; icon_state = "brownold"; dir = 8},/area/space)
+"g" = (/turf/open/indestructible,/area/space)
+"h" = (/turf/open/indestructible{tag = "icon-brownold (EAST)"; icon_state = "brownold"; dir = 4},/area/space)
+"i" = (/turf/open/indestructible{tag = "icon-brownold (SOUTHWEST)"; icon_state = "brownold"; dir = 10},/area/space)
+"j" = (/turf/open/indestructible{tag = "icon-brownold"; icon_state = "brownold"},/area/space)
+"k" = (/turf/open/indestructible{tag = "icon-brownold (SOUTHEAST)"; icon_state = "brownold"; dir = 6},/area/space)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaa
+abbbbbbbbbbbbbbbbbba
+abcddddddddddddddeba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abfgggggggggggggghba
+abijjjjjjjjjjjjjjkba
+abbbbbbbbbbbbbbbbbba
+aaaaaaaaaaaaaaaaaaaa
+"}
