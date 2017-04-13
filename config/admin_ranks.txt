@@ -22,13 +22,10 @@
 # +EVERYTHING (or +HOST or +ALL) = Simply gives you everything without having to type every flag
 
 Admin Observer
-Trial Admin				= +TRIALADMIN
-Secondary Admin			= +@ +SECONDARYADMIN
-Administrator			= +@ +ADMIN
-Primary Administrator	= +@ +PRIMARYADMIN
-Senior Admin			= +@ +SENIORADMIN
-Head of Staff			= +@ +DEBUG
+Captain					= +TRIALADMIN +SECONDARYADMIN +ADMIN +PRIMARYADMIN
+Colonel					= +@ +SENIORADMIN
 
 Coder					= +EVERYTHING
 Game Master				= +EVERYTHING
 Host					= +EVERYTHING
+Marshal					= +EVERYTHING
