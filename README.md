@@ -1,4 +1,4 @@
-##/tg/white v1.0.1
+##/tg/reen v2.0.0
 
 [![Build Status](https://travis-ci.org/tgstation/tgstation.png)](https://travis-ci.org/tgstation/tgstation)
 
