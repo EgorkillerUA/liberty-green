@@ -101,6 +101,8 @@
 		msg = emoji_parse(msg)
 
 	var/keywordparsedmsg = keywords_lookup(msg)
+	msg = sanitize_a0(msg)
+	keywordparsedmsg = sanitize_a0(msg)
 
 	if(C.holder)
 		if(holder)	//both are admins
