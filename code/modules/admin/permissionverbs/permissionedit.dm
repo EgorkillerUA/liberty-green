@@ -92,6 +92,7 @@
 		usr.text2tab("<span class='adminnotice'>New admin added.</span>")
 	else
 		if(!isnull(admin_id) && isnum(admin_id))
+			var/DBQuery/insert_query = dbcon.NewQuery("UPDATE [format_table_name("admin")] SET rank = '[new_rank]' WHERE id = [admin_id]")
 			insert_query.Execute()
 			usr.text2tab("<span class='adminnnotice'>Admin rank changed.</span>")
 
