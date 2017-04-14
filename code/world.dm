@@ -287,6 +287,7 @@ var/inerror = 0
 
 /world/proc/load_motd()
 	join_motd = file2text("config/motd.txt")
+	join_motd = sanitize_a0(join_motd)
 
 /world/proc/load_configuration()
 	protected_config = new /datum/protected_configuration()
