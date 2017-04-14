@@ -122,12 +122,6 @@ update_label("John Doe", "Clowny")
 	icon_state = "id_silver"
 	item_state = "silver_id"
 
-/obj/item/weapon/card/id/captains_spare
-	name = "gold identification card"
-	desc = "A golden card which shows power and might."
-	icon_state = "id_gold"
-	item_state = "gold_id"
-
 /obj/item/weapon/card/id/gold
 	name = "gold identification card"
 	desc = "A golden card which shows power and might."
@@ -187,7 +181,7 @@ update_label("John Doe", "Clowny")
 /obj/item/weapon/card/id/captains_spare
 	name = "captain's spare ID"
 	desc = "The spare ID of the High Lord himself."
-	icon_state = "gold"
+	icon_state = "id_gold"
 	item_state = "gold_id"
 	registered_name = "Captain"
 	assignment = "Captain"
