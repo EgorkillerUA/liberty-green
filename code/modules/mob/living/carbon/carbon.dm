@@ -783,5 +783,7 @@
 
 	..()
 
+mob/living/carbon/AltClick(mob/living/carbon)
+	give()
 
 
